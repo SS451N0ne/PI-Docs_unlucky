@@ -1,41 +1,40 @@
 §align:center
-##### §nEntity Detector§n
+##### §nДетектор существr§n
 
 §stack[draconicevolution:entity_detector]{size:64}
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
-This is an advanced entity detector with a lot of useful features.
+Это продвинутый детектор существ (объектов/Entity) с множеством полезных функций.
 
-These detectors are capable of searching for specific entity types and emitting a customized redstone signal based on what they find.
-These detectors send out scanning pulses at a configurable frequency and then update their redstone output based on what they find.
+Эти детекторы способны искать определенные типы объектов и излучать настроенный сигнал редстоуна на основе того, что они находят.
+Эти детекторы посылают сканирующие импульсы с настраиваемой частоты, а затем обновляют свои выходные данные редстоуна на основе того, что они обнаруживают.
 
-§bFeatures:
-§3Basic:§6
-10 Block max scanning range.
-1.5 Second max scanning rate.
-60 Second min scanning rate.
-0.25 Second max scanning rate
-Filter by Player, Hostile, Passive, or any combination.
+§bОсобенности:
+§3Базовый:§6
+Блоков: максимальную дальность сканирования  -  10
+Максимальная частота сканирования в секунду -  1.5
+Минимальная частота сканирования в секунду  -  60
+Фильтр по игрокам, враждебным, пассивным или любой комбинации.
 
-§5Advanced:§6
-64 Block max range
-0.25 Second max scanning rate
-Filter by Player, Hostile, Passive, Other, or any combination.
-White List / Black List§r
+§5Улучшенный:§6
+Блоков: максимальная дальность сканирования  -  64
+Максимальная частота сканирования в секунду -  0.25
+Фильтр по игрокам, враждебным, пассивным или любой комбинации.
+Белый Список / Чёрный Список§r
 
-The blacklist/whitelist in the advanced detector can be set to search for or ignore pretty much any entity in the game. And not just living entities either!
-It can also search for specific players.
+Черный/Белый список в расширенном детекторе может быть настроен на поиск или игнорирование практически любого объекта в игре. И не только живых существ!
+Он также может выполнять поиск конкретных игроков.
 
-§4Redstone:§r
-The redstone output has 2 modes. Fixed and Pulsed.
-In fixed mode, the redstone signal will be constant between scanning pulses.
-In pulse mode, it will emit a 1 tick redstone pulse each scanning pulse (Assuming it finds entities)
+§4Редстоун:§r
+Выход редстоуна имеет 2 режима. Фиксированный и пульсирующий.
+В фиксированном режиме сигнал редстоуна будет постоянным между сканирующими импульсами.
+В импульсном режиме он будет излучать 1 тиковый импульс редстоуна при каждом сканирующем импульсе (при условии, что он находит объекты).
 
-These devices can also be configured to output different signal strength depending on the number of entities detected.
-This control comes in the form of 2 controls within the GUI. RS Min and RS Max.
-RS Min is the number of entities that must be detected by the device to output a signal strength of 1.
-RS Max is the number required for an output strength of 15.
-The output strength will vary accordingly if the number of entries detected is between these 2 values.
+Эти устройства также могут быть сконфигурированы для вывода различного уровня сигнала в зависимости от количества обнаруженных объектов.
+Этот элемент управления поставляется в виде 2 элементов управления в графическом интерфейсе. RS Min и RS Max.
+RS Min - это количество объектов, которые должны быть обнаружены устройством для вывода уровня сигнала, равного 1.
+RS Max - это число, необходимое для выходной мощности 15.
+Выходная мощность будет соответственно изменяться, если количество обнаруженных записей находится между этими 2 значениями.
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 §recipe[draconicevolution:entity_detector]{spacing:2}§recipe[draconicevolution:entity_detector,1,1]{spacing:2}

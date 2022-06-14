@@ -8,28 +8,29 @@
 
 Это устройство имеет 2 основных режима работы, "время" и "погода", каждый режим имеет различные функции.
 
-Weather
-Stop Rain
-Start Rain
-Start Thunderstorm
+Погода
+Выключение дождя
+Включение дождя
+Грозовая буря
 
-Time
-Skip to sunrise
-Skip to mid-day
-Skip to sunset
-Skip to moon rise
-Skip to midnight
-Skip to moonset
-Skip 24.
-This function skips to the same time the next Minecraft day. This is useful because using the stop button you can stop the time acceleration at any point along the way
+Время
+Пропустить восход солнца
+Пропустить день
+Пропустить закат солнца
+Пропустить восход луны
+Пропустить полночь
+Пропустить заход луны
+Пропустить 24 часа
 
-Each of these functions should be fairly self-explanatory.
+Эта функция переходит к тому же времени на следующий рабочий день Minecraft. Это полезно, потому что с помощью кнопки "Выключить" вы можете остановить ускорение времени в любой момент на этом пути
 
-This device can also be configured for redstone control. In the redstone control tab, you can select which time or weather function to execute on redstone signal. If set to Skip 24 the time acceleration will stop early if the redstone signal stops. 
+Каждая из этих функций должна быть достаточно понятной.
 
-Note time acceleration does not actually speed up game ticks, it just changes the world time.
+Это устройство также может быть сконфигурировано под управление редстоуном. На вкладке контроля редстоуном, вы можете выбрать, какую функцию времени или погоды выполнять по сигналу редстоуна. Если установлено значение Пропустить 24, ускорение времени прекратится раньше, если сигнал редстоуна прекратится.
 
-This device also requires a significant amount of RF power.
+Обратите внимание, что ускорение времени на самом деле не ускоряет игровые тики, оно просто изменяет мировое время.
+
+Это устройство также требует значительного количества RF энергии.
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 §recipe[draconicevolution:celestial_manipulator]{spacing:2}

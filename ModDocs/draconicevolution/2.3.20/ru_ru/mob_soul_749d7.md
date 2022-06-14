@@ -10,22 +10,22 @@
 Для враждебных существ шанс составляет 1 к 1000, а для нейтральных существ 1 к 800 (можно изменить в конфиге), но это только для оружия Виверны.
 Шанс можно увеличить с помощью зачарования "Жнец".
 
-DE tools essentially have a built-in reaper modifier equivalent to reaper lvl 1 for Wyvern, lvl 2 for Draconic and lvl 3 for the Staff of Power.
-The calculation to figure out your drop chance is the base drop chance divided by the weapons built in reaper modifier plus the reaper enchant lvl.
+Инструменты DE, по сути, имеют встроенный модификатор Жнеца, эквивалентное ур. 1 для Виверны, ур 2 для Дракониевого и ур. 3 для Посоха силы Дракона.
+Расчет для определения вашего шанса выпадения - это базовый шанс выпадения, деленный на оружие, встроенное в модификатор Жнеца, плюс уровень заклинания Жнеца.
 
-So the calculation for say.. A Draconic sword with reaper 5 would be as follows,
-built-in modifier = 2,
-reaper lvl = 5,
-drop chance = 1000 / (2 + 5)
+Таким образом, расчет, скажем, для Драконьего Меча со Жнецом 5 будет следующим,
+Встроенный = 2,
+Жнец = 5,
+Шанс = 1000 / (2 + 5)
 
-Result: Drop chance is 1 in 142
+Результат: Вероятность выпадения составляет 1 к 142
 
-If the reaper modifier is 0 (so a non-DE weapon without the reaper enchant) there is 0 chance of getting a soul.
+Если модификатор Жнец равен 0 (то есть оружие, не являющееся DE, без заклинания Жнеца), вероятность получения души равна 0.
 
-Some mods may implement the reaper modifier on their weapons but as of the time of writing this, I do not know of any that do.
+Некоторые моды могут использовать модификатор Жнеца на своем оружии, но на момент написания этой статьи я не знаю ни одного человека, который бы это сделал.
 
 
-The main use for a mob soul is setting the spawn type for a Stabilized spawner but they can also be used to spawn their respective entity by shift right clicking on a block with a soul (Doing this consumes the soul)
+Основное применение души - это установка типа спавна для Стабилизированного спавнера, но их также можно использовать для создания соответствующей сущности, нажав ПКМ по блоку с душой (при этом душа расходуется).
 
 §rule{colour:0x606060,height:3,width:100%,top_pad:0}
 §recipe[draconicevolution:mob_soul]{spacing:2}

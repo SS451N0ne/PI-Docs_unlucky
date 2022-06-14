@@ -4,6 +4,13 @@
   "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
   "verified": false,
   "file": "draconicevolution_dbd2b.md",
+  "icons": [
+    {
+      "type": "stack",
+      "draw_hover": false,
+      "icon_string": "draconicevolution:draconic_staff_of_power,1,0,{DEUpgrades:{attackDmg:3b,digSpeed:3b,digAOE:3b,rfCap:3b,attackAOE:3b},Energy:768000000,Profile_0:{showDigAOE:0b,digDepth:0,digSpeed:100,aoeSafeMode:0b,digAOE:0,attackAOE:8.0d,junkNbtSens:1b,enableJunkFilter:1b}}"
+    }
+  ],
   "cycle_icons": false,
   "pages": [
     {
