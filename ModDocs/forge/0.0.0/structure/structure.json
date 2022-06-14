@@ -1,0 +1,15 @@
+{
+  "mod_id": "forge",
+  "mod_version": "0.0.0",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": false,
+  "file": "forge_54a1b.md",
+  "icons": [
+    {
+      "type": "stack",
+      "draw_hover": false,
+      "icon_string": "minecraft:redstone_torch"
+    }
+  ],
+  "cycle_icons": false
+}
