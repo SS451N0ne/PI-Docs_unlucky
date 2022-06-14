@@ -436,6 +436,26 @@
           "draw_hover": false,
           "icon_string": "draconicadditions:chaos_liquefier"
         }
+      ],
+      "pages": [
+        {
+          "id": "chaos_container",
+          "file": "chaos_liquifier/chaos_container_c0226.md",
+          "cycle_icons": true,
+          "hidden": false,
+          "icons": [
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:chaos_container,1,0,{chaos:1000,Energy:2000000,cheatCheck:43885L}"
+            },
+            {
+              "type": "stack",
+              "draw_hover": false,
+              "icon_string": "draconicadditions:chaos_container,1,0,{Energy:999999,cheatCheck:42005L}"
+            }
+          ]
+        }
       ]
     },
     {
